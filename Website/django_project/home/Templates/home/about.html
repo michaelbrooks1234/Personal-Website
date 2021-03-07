@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<link href={% static "home/styles.css" %} rel="stylesheet" {% now "U" %}>
+	<title></title>
+</head>
+<body>
+	<div>
+		<p class="personal">Personal Profiles</p>
+		<a href="https://github.com/michaelbrooks1234" target="_blank"><img src={% static "home/25231.png" %} class="gitty"></a>
+		<a href="https://my.indeed.com/p/michaelb-xhk6zk0" target="_blank"><img src={% static "home/indeeder.png" %} class="indeed"></a>
+	</div>
+	<div class="background">
+	</div>
+	<div class="header">	
+		<h1 class="title">
+			<ul class="headerstuff">
+				<li class="first"><a href="http://127.0.0.1:8000/home/"> home page</a></li>
+				<li><a href="http://127.0.0.1:8000/home/about">about me</a></li>
+				<li><a href="http://127.0.0.1:8000/home/projects">projects</a></li>
+				<li class="last">Michael Brooks</li>
+			</ul>
+		</h1>
+	</div>
+	<div class="main">
+		<ul class="websiteStuff">
+		<li class="listy">
+			<p>
+			<h1 class="summary"> Summary <br> </h1>
+			<h1 class="bruh">My name is Michael Brooks and I am a self taught developer working to find a job in software engineering.<br>
+			I program in c++, python, kotlin, and with frameworks such as django and Qt.<br>
+			<h1 class="summary"> Early Life - Current Day<br> </h1>
+			<h1 class="bruh">In my early life I was about the same as any other boy growing up. Making my way through school, playing with toys,<br>
+			and living a care free life. Nothing too characteristic of who I am now surfaced during this time.<br>
+			Later in life I was exposed to technology in the form of a Samsung tablet that I got for christmas.<br>
+			Playing games and watching videos on the tablet was very entertaining so I spent most of my time using it.<br>
+			This sparked my interest in technology and eventually I got into computer games.<br>
+			This is also the start of my interest of all things computers. From the hardware to the software, its all interesting<br>
+			Then as time went on I had come to the decision that software engineering would be the right career for me.<br>
+			So I got to work, first learning python just to start somewhere as the beginning was a very confusing journey.<br>
+			Then I learned about competative programming and how it could build your problem solving skills. Thats when I learned c++.<br>
+			Although it sounds like not much has happened, I spent a lot of time in the GUI and competitive programming phase.<br>
+			I did some work with GUIs and now I plan to move on to mobile app development and make some personal projects.<br>
+			<h1 class="summary"> The future <br> </h1>
+			<h1 class="bruh">Now as I hone my problem solving skills and build up a portfolio I plan on getting a job as some sort of developer.<br>
+			The short term plan is to get a job, but I want to make a career out of this. So that's the plan.<br>
+			</h1>
+			</p>
+		</li>
+		</ul>
+	</div>
+</body>
+</html>

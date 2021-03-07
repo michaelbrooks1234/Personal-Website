@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<link href={% static "home/styles.css" %} rel="stylesheet" {% now "U" %}>
+	<title></title>
+</head>
+<body>
+	<div>
+		<p class="personal">Personal Profiles</p>
+		<a href="https://github.com/michaelbrooks1234" target="_blank"><img src={% static "home/25231.png" %} class="gitty"></a>
+		<a href="https://my.indeed.com/p/michaelb-xhk6zk0" target="_blank"><img src={% static "home/indeeder.png" %} class="indeed"></a>
+	</div>
+	<div class="background">
+	</div>
+	<div class="header">	
+		<h1 class="title">
+			<ul>
+				<li class="first"><a href="http://127.0.0.1:8000/home/"> home page</a></li>
+				<li><a href="http://127.0.0.1:8000/home/about">about me</a></li>
+				<li><a href="http://127.0.0.1:8000/home/projects">projects</a></li>
+				<li class="last">Michael Brooks</li>
+			</ul>
+		</h1>
+	</div>
+	<div class="main">
+		<ul class="websiteStuff">
+		<li class="listy">
+			<p>
+				<h1 class="headermain">My Projects</h1>
+				<h1 class="project_title">NASA picture of the day app.</h1>
+				<h1 class="mainText">
+				This was my first actual project that I had undertaken. It is a GUI app made in python with tkinter.<br>
+				It takes the date from the input box and sends a request to the NASA API with that date and then recieves a json<br>
+				with information about the image of the day for that date. I decided to show only a description of the image, and the actual image itself.<br>
+				<a href='https://github.com/michaelbrooks1234/TkinterAPOD_App'><img src={% static "home/tkinter.png" %} class="tkinter"></a><br>
+				<h1 class="project_title">Simple Calculator</h1>
+				<h1 class="mainText">
+				This is my second real app that I made. It is a calculator that can perform basic maths like addition, subtraction, multiplication, division, <br>
+				and some other somewhat useful opperations. I made it in c++ with QT. It took some time because of all the buttons, but implementing the math wasn't hard<br>
+				and I used two different integer variables to store the first or second number that was inputted. Then I just used a function to calculate what was needed.<br>
+				and set the answer to the first number so that calculations could be done on the new number without having to type it out again. <br>
+				<a href='https://github.com/michaelbrooks1234/Calculator_app'><img src={% static "home/calculadora.png" %} class="calculator"></a><br>
+				</h1>
+				<h1 class="project_title">Personal Website</h1>
+				<h1 class="mainText">
+				This is a project I made to show off my other projects and also to experiment with websites. It's the website that you are on and the <br>
+				backend of the website was made using python and Django.<br>
+				All of the front end visuals were made in css and html. This website will always be updating with<br>
+				 new projects and or new visual or even backend improvements.<br>
+				<a href='https://github.com/michaelbrooks1234/Calculator_app'><img src={% static "home/website.png" %} class="website"></a><br>
+				</h1>
+			</p>
+		</li>
+		</ul>
+	</div>
+</body>
+</html>

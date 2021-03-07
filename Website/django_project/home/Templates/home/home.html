@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<link href={% static "home/styles.css" %} rel="stylesheet" {% now "U" %}>
+	<title></title>
+</head>
+<body>
+	<div>
+		<p class="personal">Personal Profiles</p>
+		<a href="https://github.com/michaelbrooks1234" target="_blank"><img src={% static "home/25231.png" %} class="gitty"></a>
+		<a href="https://my.indeed.com/p/michaelb-xhk6zk0" target="_blank"><img src={% static "home/indeeder.png" %} class="indeed"></a>
+	</div>
+	<div class="background">
+	</div>
+	<div class="header">	
+		<h1 class="title">
+			<ul>
+				<li class="first"><a href="http://127.0.0.1:8000/home/"> home page</a></li>
+				<li><a href="http://127.0.0.1:8000/home/about">about me</a></li>
+				<li><a href="http://127.0.0.1:8000/home/projects">projects</a></li>
+				<li class="last">Michael Brooks</li>
+			</ul>
+		</h1>
+	</div>
+	<div class="main">
+		<ul class="websiteStuff">
+		<li class="listy">
+			<p>
+				<h1 class="headermain">What is this website?</h1>
+				<h1 class="mainText">
+				This website is a personal project of mine that will be used as a showcase of what I have done in the programming world.<br>
+				My thoughts were that it would be nice to have a place to show all my projects together in a very easy to see place.<br>
+				Maybe I will update it over time and add database capabilities with a user feature and make a forum so people can leave me public messages.<br>
+				I like the layout for now though.
+				</h1>
+				<h1 class="headermain">Why was it made?</h1>
+				<h1 class="mainText">
+				I made this website as an alternative to viewing my projects and also giving a little bit of backstory of myself.<br>
+				Im hoping that viewing my projects and reading about how they worked would be easier than maybe github.<br>
+				Of course if people did want to see the code my github is on the leftside of the website.<br>
+				All you have to do is click the icon.<br>
+				</h1>
+			</p>
+		</li>
+		</ul>
+	</div>
+</body>
+</html>
